@@ -1,0 +1,8 @@
+import math
+a=int(input('a='))
+b=int(input('b='))
+c=int(input('c='))
+S=(a+b+c)/2
+X=S*(S-a)*(S-b)*(S-c)
+Dientich=math.sqrt(X)
+print('Dien tich=',Dientich)
